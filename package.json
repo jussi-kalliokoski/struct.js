@@ -5,7 +5,7 @@
   "main": "lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "cat src/struct.js > lib/index.js; echo \"module.exports=Struct\" > lib/index.js"
+    "preinstall": "cat src/struct.js > lib/index.js; echo \"module.exports=Struct\" >> lib/index.js"
   },
   "repository": {
     "type": "git",
