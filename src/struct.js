@@ -144,5 +144,3 @@ Struct.prototype = {
 return Struct
 
 }()
-
-module.exports = Struct
